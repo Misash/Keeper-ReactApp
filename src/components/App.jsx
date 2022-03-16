@@ -13,7 +13,7 @@ function App() {
 
             {notes.map(note => 
                 (
-                < Note title={note.title} content={note.content} />
+                < Note key = {note.key} title={note.title} content={note.content} />
                 )
             )}
 
